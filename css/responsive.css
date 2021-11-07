@@ -1,0 +1,66 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200.98px) and (max-width: 1399.98px) {
+  .header .main_menu nav ul li a {
+    padding: 45px 20px;
+  }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  .header .main_menu nav ul li a {
+    padding: 45px 10px;
+  }
+  .iocns .single_icon .icon_des h2 {
+    font-size: 25px;
+  }
+  #protfolio .filter-button-group button {
+    font-size: 15px;
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 767.98px) and (max-width: 990.98px) {
+  .header .main_menu nav ul li a {
+    padding: 45px 10px;
+  }
+  .iocns .single_icon .icon_des h2 {
+    font-size: 25px;
+  }
+  #protfolio .filter-button-group button {
+    font-size: 15px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .header .main_menu nav ul li a {
+    padding: 45px 10px;
+  }
+  .iocns .single_icon .icon_des h2 {
+    font-size: 25px;
+  }
+  #protfolio .filter-button-group button {
+    font-size: 15px;
+   }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+  }
+  .header .main_menu nav ul li a {
+    padding: 45px 10px;
+  }
+  .iocns .single_icon .icon_des h2 {
+    font-size: 25px;
+  }
+  #protfolio .filter-button-group button {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,42 @@
+#team{
+  padding: 70px 0;
+  & header{
+    font-size: 30px;
+    font-weight: 100;
+    color: #041b04be;
+    margin-bottom: 100px;
+  }
+  & .single_team_item{
+    img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    .team__des{
+      color: #4e525d;
+      .team_head{
+        h3{
+          font-size: 22px;
+          font-weight: 300;
+          line-height: 1.2;
+          margin-top: 68px;
+        }
+        span{
+          font-size: 14px;
+          margin-top: 12px;
+          margin-bottom: 35px;
+          display: inline-block;
+        }
+      }
+      .team_footer{
+        p{
+
+        }
+      }
+    }
+  }
+}

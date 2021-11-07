@@ -1,0 +1,32 @@
+#client{
+  .single_clinet_box{
+    color: #4e525d;
+    h2{
+      font-style: 42px;
+    }
+    p{
+      font-size: 19px;
+      margin-top: 37px;
+      margin-bottom: 39px;
+      width: 57%;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+    .client_name{
+      font-style: 21px;
+      color: #9a8faf;
+    }
+  }
+  i.fa.fa-arrow-left.arrow_left_clinet.slick-arrow {
+    left: 0%;
+    top: 33%;
+  }
+  i.fa.fa-arrow-right.arrow_right_client.slick-arrow {
+    right: 0%;
+    top: 33%;
+  }
+  .slick-arrow {
+    background: transparent;
+    color: #999999;
+   }
+}
