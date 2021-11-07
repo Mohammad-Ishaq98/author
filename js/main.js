@@ -182,7 +182,7 @@ var $grid = $('.grid').isotope({
 		percentPosition: true,
 		masonry: {
 				// use outer width of grid-sizer for columnWidth
-				columnWidth: '.grid-item'
+				columnWidth: '.grid-item',
 		}
 })
 });

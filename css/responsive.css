@@ -30,7 +30,10 @@
   }
   #protfolio .filter-button-group button {
     font-size: 15px;
-}
+  }
+  .header_logo img {
+    margin-top: 13px;
+  }
 
 }
 
